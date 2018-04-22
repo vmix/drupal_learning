@@ -14,6 +14,9 @@
 # Core's dependencies are managed with Composer.
 vendor
 
+# Jetbrains directory
+.idea/
+
 # Ignore configuration files that may contain sensitive information.
 sites/*/settings*.php
 sites/*/services*.yml
@@ -29,11 +32,11 @@ sites/simpletest
 # or delete the previous settings and uncomment the following ones, instead.
 
 # Ignore configuration files that may contain sensitive information.
-# */settings*.php
+*/settings*.php
 
 # Ignore paths that contain user-generated content.
-# */files
-# */private
+*/files
+*/private
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
