@@ -1,0 +1,13 @@
+name: Youfone
+type: theme
+description: 'Our theme for Youfone site'
+core: 8.x
+
+libraries:
+  - youfone/bootstrap
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  left_sidebar: 'Left Sidebar'
+  footer: 'Footer'

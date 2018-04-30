@@ -1,0 +1,5 @@
+<?php
+
+function youfone_preprocess_page(&$vars) {
+    $vars['name'] = 'Viacheslav';
+}

@@ -1,0 +1,19 @@
+name: ocelot
+type: theme
+description: "Ocelot theme"
+core: 8.x
+
+libraries:
+  - ocelot/global-styling
+  - core/normalize
+  - classy/base
+  - core/jquery
+  - core/drupal.ajax
+  - core/drupal
+  - core/drupalSettings
+  - core/jquery.once
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'

@@ -1,0 +1,13 @@
+{% extends 'page.html.twig' %}
+
+{%  block content %}
+
+    {%  if page.left_sidebar %}
+        <div class="col-md-6 left-sidebar">
+            {{ page.left_sidebar }}
+        </div>
+    {%  endif %}
+    <div class="col-md-{{ (page.left_sidebar) ? '6': '12' }} content">
+        {{ page.content }}
+    </div>
+{%  endblock %}
